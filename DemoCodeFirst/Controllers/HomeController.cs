@@ -11,6 +11,12 @@ namespace DemoCodeFirst.Controllers
         [HttpGet("ShowName")]
         public string FnShowName()
         {
+            return "Hello Team";
+        }
+
+        [HttpGet("FnHelloWorld")]
+        public string FnHelloWorld()
+        {
             return "Hello World";
         }
 
